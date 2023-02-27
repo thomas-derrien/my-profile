@@ -1,0 +1,114 @@
+body {
+	background-color: white;
+	color: darkblue;
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+}
+
+h1{
+	color: white;
+	font-size: 40px;
+}
+
+#Description{
+	color: white;
+}
+h1:hover{
+	text-shadow: 2px 2px 3px black;
+
+}
+h2{
+	color: #33A1FD;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+h3{
+	font-size: 17px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #2176FF;
+
+}
+a:hover {
+	color: black;
+}
+
+
+.ProfilePicture-circle{
+width : 175px;
+height : 175px;
+border-radius: 50%;
+justify-content: center;
+}
+
+.ProfilePicture-circle:hover{
+	stroke: 34px, black;
+}
+
+
+
+
+
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media	(max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+@media	(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+	border-radius: 5px;
+    margin: 50px;
+    text-align: center; 
+}
+
+#introduction{
+	background-image: linear-gradient(to bottom right, rgb(10, 38, 71), rgb(20, 66, 114), rgb(32, 82, 149), rgb(44, 116, 179));
+	}
+#introduction p{
+	margin-bottom: 25px;
+}
+.Bouton-bleu{
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10%;
+	font-size: 12px;
+}
+
+.Bouton-bleu:hover{
+	background-color: white;
+	color: black;
+}
+
+.liste-horizontale{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.liste-horizontale li{
+	padding: 15px;
+	display:inline;
+	font-size: 25px;
+}
